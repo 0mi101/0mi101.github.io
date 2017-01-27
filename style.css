@@ -19,7 +19,7 @@
 .subtitle p {
   color:#002d77;
   text-align:center;
-  font-size: 120%;
+  font-size: 140%;
 }
 
 .subtitle  {
@@ -84,11 +84,10 @@ a:link {
   margin: auto;
 }
 .img {
-  display: block;
   margin: auto;
-  padding-bottom: 10px;
-  border-radius: 10%;
-  float;
+  padding: 10px;
+  border-radius: 10px;
+  display:block;
 }
 #banner {
   display: block;
