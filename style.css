@@ -1,0 +1,114 @@
+* {
+  font-family: Helvetica;
+  float;
+}
+/*Sets properties for title text*/
+.title p {
+  color:#002d77;
+  text-align:center;
+  font-size: 300%
+}
+/*Gives title a gray radial gradient*/
+.title  {
+  font-size:120%;
+  background: #a0c4ff;
+  width: 75%;
+  border-radius:10px;
+  margin:auto;
+}
+.subtitle p {
+  color:#002d77;
+  text-align:center;
+  font-size: 120%;
+}
+
+.subtitle  {
+  background: #a0c4ff;
+  width: 25%;
+  border-radius:10px;
+  margin: auto;
+  margin-top:0px;
+}
+/* Gives page blue to grey gradient */
+.body {
+  background: linear-gradient(#4286f4, #a0c4ff) fixed;
+  width: 100%;
+  length: 100%;
+}
+/* Makes menu and child tags gray */
+#menu * {
+  font-size: 150%;
+  background: #a0c4ff;;
+  text-decoration: none;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+a:visited {
+  color: #002d77;
+}
+a:link {
+  color: #002d77;
+}
+.menubutton {
+  border-bottom: 5px solid #a0c4ff
+;
+  border-radius: 5px;
+  display: inline-block;
+  padding-left:3%;
+  padding-right:3%;
+}
+/* On hover creates a purple underline */
+.menubutton:hover {
+  cursor:pointer;
+  border-bottom: 5px solid #9747e8;
+}
+/* White text */
+.text {
+  color: #002d77;
+  font-size: 125%;
+  text-align: left;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.textbox {
+  background-color:#a0c4ff;
+  border-radius:10px;
+  width:75%;
+  margin: auto;
+}
+.horizontalad {
+  display: block;
+  margin: auto;
+}
+.img {
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  border-radius: 10%;
+  float;
+}
+#banner {
+  display: block;
+  margin: auto;
+}
+.footer {
+  width: 15%;
+  background-color: #002d77;
+  border-radius: 10px;
+  font-size:75%;
+  text-align:center;
+  display:block;
+  margin:auto;
+}
+.footer a {
+  color:#a0c4ff;
+}
+.footer p {
+  color:#a0c4ff;
+}
+#cntfrm {
+  margin:auto;
+}
