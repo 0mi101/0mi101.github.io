@@ -21,7 +21,6 @@
   text-align:center;
   font-size: 140%;
 }
-
 .subtitle  {
   background: #a0c4ff;
   width: 25%;
@@ -51,8 +50,7 @@ a:link {
   color: #002d77;
 }
 .menubutton {
-  border-bottom: 5px solid #a0c4ff
-;
+  border-bottom: 5px solid #a0c4ff;
   border-radius: 5px;
   display: inline-block;
   padding-left:3%;
@@ -66,12 +64,11 @@ a:link {
 /* White text */
 .text {
   color: #002d77;
-  font-size: 125%;
+  font-size: 120%;
   text-align: left;
   padding-left:10px;
   padding-right:10px;
   padding-top:10px;
-  padding-bottom:10px;
 }
 .textbox {
   background-color:#a0c4ff;
@@ -82,6 +79,11 @@ a:link {
 .horizontalad {
   display: block;
   margin: auto;
+  padding: 1%;
+}
+.verticalad {
+  display: block;
+  padding: 1%;
 }
 .img {
   margin: auto;
