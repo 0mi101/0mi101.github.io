@@ -30,7 +30,7 @@
 }
 /* Gives page blue to grey gradient */
 .body {
-  background: linear-gradient(#4286f4, #a0c4ff) fixed;
+  background: linear-gradient(#4286f4, #1867FF) fixed;
   width: 100%;
   length: 100%;
 }
