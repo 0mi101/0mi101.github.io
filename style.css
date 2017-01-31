@@ -103,10 +103,6 @@ a:link {
 .imgdiv {
   text-align: center;
 }
-#banner {
-  display: block;
-  margin: auto;
-}
 .footer {
   width: 15%;
   background-color: #002d77;
