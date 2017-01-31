@@ -1,12 +1,12 @@
 * {
   font-family: Helvetica;
-  float;
 }
 /*Sets properties for title text*/
 .title p {
   color:#002d77;
   text-align:center;
-  font-size: 300%
+  font-size: 300%;
+  opacity: 0.9;
 }
 /*Gives title a gray radial gradient*/
 .title  {
@@ -15,11 +15,13 @@
   width: 75%;
   border-radius:10px;
   margin:auto;
+  opacity: 0.9;
 }
 .subtitle p {
   color:#002d77;
   text-align:center;
   font-size: 140%;
+  opacity: 0.9;
 }
 .subtitle  {
   background: #a0c4ff;
@@ -27,14 +29,26 @@
   border-radius:10px;
   margin: auto;
   margin-top:0px;
+  opacity: 0.9;
 }
 /* Gives page blue to grey gradient */
 .body {
-  background: linear-gradient(#4286f4, #1867FF) fixed;
+  background: linear-gradient(#4286f4, #1916E8) fixed;
   width: 100%;
   length: 100%;
 }
-/* Makes menu and child tags gray */
+#moonbody {
+  background-image: url(lunalabg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+/* Makes menu and child tags purple */
+a:visited {
+  color: #002d77;
+}
+a:link {
+  color: #002d77;
+}
 #menu * {
   font-size: 150%;
   background: #a0c4ff;;
@@ -42,12 +56,7 @@
   list-style-type: none;
   margin-left: 10px;
   margin-right: 10px;
-}
-a:visited {
-  color: #002d77;
-}
-a:link {
-  color: #002d77;
+  opacity: 0.9;
 }
 .menubutton {
   border-bottom: 5px solid #a0c4ff;
@@ -74,7 +83,8 @@ a:link {
   background-color:#a0c4ff;
   border-radius:10px;
   width:75%;
-  margin: auto;
+  margin: 0 auto;
+  opacity: 0.9;
 }
 .horizontalad {
   display: block;
@@ -86,10 +96,12 @@ a:link {
   padding: 1%;
 }
 .img {
-  margin: auto;
   padding: 10px;
   border-radius: 10px;
-  display:block;
+  opacity: 1;
+}
+.imgdiv {
+  text-align: center;
 }
 #banner {
   display: block;
