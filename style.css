@@ -31,7 +31,7 @@
   margin-top:0px;
   opacity: 0.9;
 }
-/* Gives page blue to grey gradient */
+/* Gives page blue to purple gradient */
 .body {
   background: linear-gradient(#4286f4, #1916E8) fixed;
   width: 100%;
@@ -39,6 +39,16 @@
 }
 #moonbody {
   background-image: url(lunalabg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+#robloxbody {
+  background-image: url(robloxbg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+#dq7body {
+  background-image: url(dq7bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%
 }
